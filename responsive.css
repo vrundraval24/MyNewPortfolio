@@ -170,7 +170,8 @@
 
 
   .profile-picture {
-    width: 400px;
+    /* width: 400px; */
+    width: 90vw;
   }
 
   .introduction h4 {
@@ -206,7 +207,8 @@
 
 
   .profile-picture {
-    width: 300px;
+    /* width: 300px; */
+    width: 90vw;
   }
 
   .introduction h4 {
@@ -240,7 +242,8 @@
 
 
   .profile-picture {
-    width: 300px;
+    /* width: 300px; */
+    width: 90vw;
   }
 
   .introduction h4 {
