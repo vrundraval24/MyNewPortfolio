@@ -85,16 +85,16 @@
   }
 
   .introduction h6 {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 900px) {
-  /* body{
+  body{
     background-color: blue;
-  } */
+  }
   .profile-picture {
-    width: 250px;
+    width: 270px;
   }
 
   .introduction h4 {
@@ -112,9 +112,9 @@
 
 
 @media (max-width: 800px) {
-  /* body{
-    background-color: blue;
-  } */
+  body{
+    background-color: red;
+  }
   .profile-picture {
     width: 250px;
   }
@@ -128,16 +128,16 @@
   }
 
   .introduction h6 {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 700px) {
-  /* body{
-    background-color: blue;
-  } */
+  body{
+    background-color: green;
+  }
   .profile-picture {
-    width: 200px;
+    width: 220px;
   }
 
   .introduction h4 {
@@ -145,11 +145,11 @@
   }
 
   .introduction h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .introduction h6 {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 
@@ -164,25 +164,25 @@
 
 
 
-  /* body{
-    background-color: blue;
-  } */
+  body{
+    background-color: yellow;
+  }
 
 
   .profile-picture {
-    width: 300px;
+    width: 400px;
   }
 
   .introduction h4 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .introduction h2 {
-    font-size: 30px;
+    font-size: 36px;
   }
 
   .introduction h6 {
-    font-size: 13px;
+    font-size: 18px;
   }
 }
 
@@ -200,9 +200,9 @@
 
 
 
-  /* body{
-    background-color: blue;
-  } */
+  body{
+    background-color: pink;
+  }
 
 
   .profile-picture {
@@ -218,7 +218,7 @@
   }
 
   .introduction h6 {
-    font-size: 13px;
+    font-size: 18px;
   }
 }
 
@@ -234,30 +234,30 @@
 
 
 
-  /* body{
-    background-color: blue;
-  } */
+  body{
+    background-color: orange;
+  }
 
 
   .profile-picture {
-    width: 200px;
+    width: 300px;
   }
 
   .introduction h4 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .introduction h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .introduction h6 {
-    font-size: 8px;
+    font-size: 16px;
   }
 }
 
 
-@media only screen and (max-width: 250px){
+@media only screen and (max-width: 300px){
 
   body{
     display: none;

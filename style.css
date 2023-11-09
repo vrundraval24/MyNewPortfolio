@@ -113,6 +113,7 @@ a {
   /* height: calc(100vh - 100px); */
   /* height: auto; */
   background-color: green;
+  overflow: hidden;
 }
 
 .about-container {
@@ -145,4 +146,8 @@ a {
 
 .introduction h6 {
   font-size: 18px;
+}
+
+.introduction{
+  max-width: 500px;
 }
