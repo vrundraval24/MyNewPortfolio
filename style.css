@@ -3,7 +3,7 @@
 :root {
   --black-one: black;
   --black-two: rgba(0, 0, 0, 0.7);
-  --navbar-height: 100px;
+  /* --navbar-height: 100px; */
 }
 
 * {
@@ -13,6 +13,20 @@
   font-weight: normal;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.hehe {
+  max-width: 1600px;
+  width: 100%;
+  overflow: hidden;
+}
+
 
 li {
   list-style: none;
@@ -24,11 +38,12 @@ a {
 }
 
 .navbar {
+  /* max-width: 1600px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 10%;
-  min-height: var(--navbar-height);
+  min-height: 100px;
   background-color: white;
 }
 
@@ -107,8 +122,11 @@ a {
  */
 
 .about-section {
+  /* max-width: 1600px; */
   width: 100%;
   height: auto;
+  /* background: linear-gradient(to left, #e4e9d4 70vw, white); */
+
   /* min-height: calc(100vh - 100px); */
   /* height: calc(100vh - 100px); */
   /* height: auto; */
@@ -122,9 +140,11 @@ a {
   /* height: auto;
   min-height: calc(100vh - 100px); */
 
-  padding: 5vh 10vw;
+  padding: 5vh 10%;
 
-  background: linear-gradient(to left, #e4e9d4 800px, white);
+  /* background: linear-gradient(to left, #e4e9d4 70vw, white); */
+
+  background-color: #e4e9d4;
 
   display: flex;
   flex-direction: row;
@@ -133,7 +153,10 @@ a {
 }
 
 .profile-picture {
-  width: 500px;
+  /* width: 40vw;
+  max-width: 500px; */
+
+  width: 600px;
 }
 
 .introduction h4 {
@@ -142,12 +165,17 @@ a {
 
 .introduction h2 {
   font-size: 50px;
+  font-weight: 500;
 }
 
 .introduction h6 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.introduction{
+.introduction {
+  margin-right: 50px;
   max-width: 500px;
+  width: 40vw;
+
 }
+

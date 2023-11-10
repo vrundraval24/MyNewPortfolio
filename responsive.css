@@ -51,10 +51,18 @@
 }
 
 
+
+
+
+
+
+
+
 @media (max-width: 1210px) {
 
   .profile-picture {
-    width: 400px;
+    /* width: 400px; */
+    width: 100%;
   }
 
   .introduction h4 {
