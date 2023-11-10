@@ -20,7 +20,7 @@
         width: 100%;
         flex-direction: column;
         justify-content: start;
-        top: 100px;
+        top: 60px;
         height: 0;
         overflow: hidden;
 
@@ -47,6 +47,10 @@
         font-size: 1.5rem;
         font-weight: 500;
       }
+
+    .about-section{
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 1000px) {

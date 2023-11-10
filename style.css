@@ -37,6 +37,12 @@ a {
   text-decoration: none;
 }
 
+header{
+  position: fixed;
+  width: 100%;
+  max-width: 1600px;
+}
+
 .navbar {
   /* max-width: 1600px; */
   display: flex;
@@ -122,6 +128,7 @@ a {
  */
 
 .about-section {
+  margin-top: 100px;
   /* max-width: 1600px; */
   width: 100%;
   height: auto;
